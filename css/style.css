@@ -1,0 +1,590 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #C0CCDA;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #C0CCDA;
+}
+
+::-ms-input-placeholder {
+  color: #C0CCDA;
+}
+header{
+	padding: 20px;
+	height: 70px;
+}
+header section.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header div.left{
+	display: flex;
+	justify-content: flex-start;
+	align-items:center;
+	width: 75%;
+}
+header div.left h1{
+
+}
+header div.left h1 a{
+
+}
+header div.left h1 a img{
+	display: block;
+	margin-right: 20px;
+}
+header div.left ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #253858;
+}
+header div.left ul li{
+	margin-right: 30px;
+}
+header div.left ul li a{
+	color: #0052cc;
+}
+header div.right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header div.right ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+header div.right ul li{
+	margin-right: 20px;
+}
+header div.right ul li:last-child{
+	margin-right: 0px;
+}
+header div.right ul li a{
+	color: #0052cc;
+}
+header div.right ul li a.button{
+	border: 2px solid  #42526E;
+	padding: 5px 14px;
+	border-radius: 8px;
+}
+#spotlight{
+	background: #f4f5f7;
+}
+#spotlight section.container{
+	text-align: center;
+	padding: 41px;
+}
+#spotlight section.container h1{
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#spotlight section.container p{
+	font-size: 20px;
+	margin-bottom: 20px;
+	
+}#spotlight section.container a{
+
+}
+#spotlight section.container span.label{
+	display: block;
+}
+#spotlight section.container span.label a{
+
+}
+#spotlight section.container span.label a.bit, #spotlight section.container span.label a.bit:hover{
+	color: #0052cc;
+	font-weight: 300;
+	display: inline-block;
+	
+}
+#spotlight section.container span.label a.bit:hover{
+	border-bottom: 2px solid #0052cc;
+}
+#spotlight section.container a.button{
+		background: #0052cc;
+		padding: 10px 12px;
+		color: white;
+		border-radius: 5px;
+		margin-bottom: 24px;
+		display: inline-block;
+}
+#spotlight section.container span.label img{
+
+}
+#spotlight section.container img.spotlight-img	{
+	display: block;
+	width: 100%;
+}
+#features{
+	
+}
+#features img.curve{
+	display: block;
+	transform: rotate(-180deg);
+	margin-top: -1px;
+
+}
+#features section.wrapper{
+	
+}
+#features section.wrapper ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+#features section.wrapper ul li{
+	width: 32%;
+	text-align: center;
+}
+#features section.wrapper ul li img{
+	display: inline-block;
+	height: 130px;
+	margin-bottom: 25px;
+}
+#features section.wrapper ul li h1{
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+#features section.wrapper ul li p{
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+#highlight{
+	margin-top: 100px;
+	
+}
+#highlight section.item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px;
+}
+#highlight section.item div.image-container{
+	width: 65%;
+}
+#highlight section.item div.image-container img{
+	width: 100%;
+	display: block;
+}
+#highlight section.item div.content-box{
+	width: 30%;
+}
+#highlight section.item div.content-box span{
+
+}
+#highlight section.item div.content-box span.label{
+	font-size: small;
+}
+#highlight section.item div.content-box h1{
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#highlight section.item div.content-box p{
+	font-size: 20px;
+}
+#highlight section.item div.content-box a{
+	color: #0052cc;
+	
+}
+#highlight section.item div.content-box a.button{
+	margin-top: 20px;
+    display: inline-block;
+}
+#highlight section.item div.content-box a.button img{
+	margin-left: 5px;
+}
+#resources{
+	background: #f4f5f7;
+	padding: 60px 0px 50px;
+}
+#resources section.top{
+	text-align: center;
+
+}
+#resources section.top h1{
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#resources section.top p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#resources section.top ul{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+}
+#resources section.top ul li{
+	width: 35%;
+	background: white;
+	padding: 40px;
+}
+#resources section.top ul li img.top{
+	display: block;
+	height: 100px;
+}
+#resources section.top ul li img.top{
+
+}
+#resources section.top ul li h4{
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#resources section.top ul li p{
+
+}
+#resources section.top ul li a{
+
+}
+#resources section.top ul li a.button{
+	color: #0052cc;
+}
+#resources section.top ul li a.button img{
+	margin-left: 5px;
+}
+#resources section.bottom{
+	text-align: center;
+
+}
+#resources section.bottom h1{
+	font-size: 35px;
+	margin-top: 100px;
+	font-weight: 500;
+	margin-bottom: 25px;
+
+}
+#resources section.bottom p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+#resources section.bottom ul{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+#resources section.bottom ul li{
+	width: 30%;
+	text-align: left;
+}
+#resources section.bottom ul li img.bottom{
+	display: block;
+	height: 100px;
+	margin-bottom: 20px;
+}
+#resources section.bottom ul li h3{
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+#resources section.bottom ul li p{
+	font-size: 20px;
+}
+#resources section.bottom ul li a.button{
+	color: #0052cc;
+}
+#brand{
+
+}
+#brand img.curve{
+	display: block;
+	transform: rotate(-180deg);
+	margin-top: -1px;
+}
+#brand section.container{
+	text-align: center;
+	border-bottom: 2px solid #dfe1ef;
+	padding-bottom: 60px;
+}
+#brand section.container h3{
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	
+}
+#brand section.container img{
+
+}
+#pricing{
+	padding: 60px 0;
+}
+#pricing section.top{
+
+}
+#pricing section.top h2{
+	font-size: 36px;
+	font-weight: 600;
+	width: 50%;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+#pricing section.top ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+#pricing section.top ul li{
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+	width: 32%;
+	background: white;
+}
+#pricing section.top ul li div.title{
+	padding: 24px 12px;
+	text-align: center;
+	border-bottom: 2px solid #f4f5f7;
+	
+}
+#pricing section.top ul li div.middle{
+	background: #f4f5f7;
+}
+#pricing section.top ul li div.title h3{
+	font-size: 25px;
+	font-weight: 600;
+}
+#pricing section.top ul li div.content{
+	text-align: center;
+}
+#pricing section.top ul li div.content h5{
+	font-size: 45px;
+	font-weight: 900;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}	
+#pricing section.top ul li div.content span.user{
+		font-size: 18px;
+		display: block;
+		margin-bottom: 10px;
+}
+#pricing section.top ul li div.content small{
+	margin-bottom: 50px;
+	display: block;
+}
+#pricing section.top ul li div.content a.button{
+	display: inline-block;
+	margin-bottom: 50px;
+	padding: 12px 20px;
+	background: #0052cc;
+	color: white;
+	border-radius: 4px;
+	
+}
+#pricing section.top ul li div.content a.dif{
+	display: inline-block;
+	margin-bottom: 50px;
+	padding: 12px 20px;
+	border-radius: 4px;
+	color: #0052cc;
+	border: 1px solid #0052cc;
+}
+#pricing section.top ul li div.content a.dif:hover{
+	background: #f4f5f7;
+}
+#pricing section.top ul li div.content span.label{
+	display: block ;
+	padding-bottom: 30px;
+}
+#pricing section.top div.bottom{
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+	padding: 24px;
+	text-align: center;
+}
+#pricing section.top div.bottom p{
+	font-weight: 500;
+}
+#pricing section.top div.bottom p b{
+	font-size: 16px;
+	font-weight: 700;
+}
+#pricing section.top div.bottom p a{
+	color: #0052cc;
+}
+#pricing section.bottom{
+	text-align: center;
+	padding: 30px 0;
+}
+#pricing section.bottom section.content{
+	padding: 64px;
+	background: #f4f5f7;
+	width: 85%;
+	margin: 90px auto 0;
+}
+#pricing section.bottom a{
+	color: #0052cc;
+}
+#pricing section.bottom section.content section.item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+#pricing section.bottom section.content section.item div.left{
+	width: 100px;
+}
+#pricing section.bottom section.content section.item div.left img{
+	display: block;
+	width: 100%;
+	margin-right: 30px;
+}
+#pricing section.bottom section.content section.item div.right{
+	width: 100%;
+	text-align: left;
+	margin-left: 40px;
+}
+#pricing section.bottom section.content section.item div.right h3{
+	font-size: 36px;
+	margin-bottom: 24px;
+	font-weight: 500;
+}
+#pricing section.bottom section.content section.item div.right p{
+
+}
+#pricing section.bottom section.content section.item div.right a{
+
+}
+#pricing section.bottom section.content section.item div.right a img{
+
+}
+#banner{
+	text-align: center;
+	min-height: 300px;
+	background-image: url(../images/left_bottom_hero.png), url(../images/right_bottom_hero.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom left, bottom right;
+	background-size: 600px 300px, 600px 300px;
+}
+#banner h3{
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+#banner a.button{
+	background: #0052cc;
+	display: inline-block;
+    padding: 8px 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
